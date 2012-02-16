@@ -77,10 +77,10 @@
             android:text="Button" />
 
         <Button
-            android:id="@+id/button8"
+            android:id="@+id/bbackwards"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="v" />
 
         <Button
             android:id="@+id/button7"
