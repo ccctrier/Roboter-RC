@@ -108,6 +108,15 @@ public class RoboterRCActivity extends Activity {
 				writeMessage((byte) ComunicationConstants.stop);
 			}
 		});
+		
+		Button bforwadLeft = (Button) findViewById(R.id.bforwadLeft);
+		bforwadLeft.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				writeMessage((byte) ComunicationConstants.forwadLeft);
+			}
+		});
 	}
 
 	// Enables Bluetooth if not enabled
