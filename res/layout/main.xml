@@ -55,24 +55,24 @@
         android:layout_height="wrap_content" >
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/bleft"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.18"
-            android:text="Button" />
+            android:text="&lt;" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/bstop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="S " />
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/bright"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.18"
-            android:text="Button" />
+            android:text="&gt;" />
     </LinearLayout>
 
     <LinearLayout

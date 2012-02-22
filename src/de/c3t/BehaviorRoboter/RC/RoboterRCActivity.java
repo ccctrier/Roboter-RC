@@ -57,13 +57,13 @@ public class RoboterRCActivity extends Activity {
 
 		Button btakeControl = (Button) findViewById(R.id.btakeControl);
 		btakeControl.setOnClickListener(new OnClickListener() {
-			
+
 			@Override
 			public void onClick(View v) {
 				writeMessage((byte) ComunicationConstants.takeControl);
 			}
 		});
-		
+
 		Button bforward = (Button) findViewById(R.id.bforward);
 		bforward.setOnClickListener(new OnClickListener() {
 
@@ -72,13 +72,40 @@ public class RoboterRCActivity extends Activity {
 				writeMessage((byte) ComunicationConstants.forward);
 			}
 		});
-		
+
 		Button bbackward = (Button) findViewById(R.id.bbackwards);
 		bbackward.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
 				writeMessage((byte) ComunicationConstants.backward);
+			}
+		});
+
+		Button bleft = (Button) findViewById(R.id.bleft);
+		bleft.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				writeMessage((byte) ComunicationConstants.turnLeft);
+			}
+		});
+
+		Button bright = (Button) findViewById(R.id.bright);
+		bright.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				writeMessage((byte) ComunicationConstants.turnRight);
+			}
+		});
+		
+		Button bstop = (Button) findViewById(R.id.bstop);
+		bstop.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				writeMessage((byte) ComunicationConstants.stop);
 			}
 		});
 	}
