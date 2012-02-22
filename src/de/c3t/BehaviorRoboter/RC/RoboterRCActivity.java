@@ -117,6 +117,33 @@ public class RoboterRCActivity extends Activity {
 				writeMessage((byte) ComunicationConstants.forwadLeft);
 			}
 		});
+		
+		Button bforwardRight = (Button) findViewById(R.id.bforwadRight);
+		bforwardRight.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				writeMessage((byte) ComunicationConstants.forwadRight);
+			}
+		});
+		
+		Button bbackwardsLeft = (Button) findViewById(R.id.bbackwardsLeft);
+		bbackwardsLeft.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				writeMessage((byte) ComunicationConstants.backwardLeft);
+			}
+		});
+		
+		Button bbackwardsRight = (Button) findViewById(R.id.bbackwardsRight);
+		bbackwardsRight.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				writeMessage((byte) ComunicationConstants.backwardRight);
+			}
+		});
 	}
 
 	// Enables Bluetooth if not enabled
