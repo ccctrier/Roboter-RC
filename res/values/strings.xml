@@ -4,5 +4,6 @@
     <string name="hello">Hello World, RoboterRCActivity!</string>
     <string name="app_name">Roboter-RC</string>
     <string name="Connect">Connect</string>
+    <string name="takecontrol">take control</string>
 
 </resources>

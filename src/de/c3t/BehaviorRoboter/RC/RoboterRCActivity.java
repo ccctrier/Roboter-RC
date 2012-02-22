@@ -50,10 +50,20 @@ public class RoboterRCActivity extends Activity {
 					enableBT();
 					System.out.println("connect");
 					connectToNXT();
+					System.out.println("connected");
 				}
 			}
 		});
 
+		Button btakeControl = (Button) findViewById(R.id.btakeControl);
+		btakeControl.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				writeMessage((byte) ComunicationConstants.takeControl);
+			}
+		});
+		
 		Button bforward = (Button) findViewById(R.id.bforward);
 		bforward.setOnClickListener(new OnClickListener() {
 

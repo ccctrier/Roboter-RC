@@ -4,11 +4,24 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-    <Button
-        android:id="@+id/bconnect"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/Connect" />
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/bconnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Connect" />
+
+        <Button
+            android:id="@+id/btakeControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/takecontrol" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout3"
@@ -24,8 +37,8 @@
 
         <Button
             android:id="@+id/bforward"
-            android:layout_width="56dp"
-            android:layout_height="36dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="^" />
 
         <Button
@@ -34,7 +47,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.18"
             android:text="Button" />
-
     </LinearLayout>
 
     <LinearLayout
@@ -61,7 +73,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.18"
             android:text="Button" />
-
     </LinearLayout>
 
     <LinearLayout
@@ -87,7 +98,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Button" />
-
     </LinearLayout>
 
 </LinearLayout>
