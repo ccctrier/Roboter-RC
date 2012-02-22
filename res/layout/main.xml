@@ -30,22 +30,20 @@
 
         <Button
             android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.18"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:text="Button" />
 
         <Button
             android:id="@+id/bforward"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:text="^" />
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.18"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:text="Button" />
     </LinearLayout>
 
@@ -56,23 +54,22 @@
 
         <Button
             android:id="@+id/bleft"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.18"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:text="&lt;" />
 
         <Button
             android:id="@+id/bstop"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:text="S " />
 
         <Button
             android:id="@+id/bright"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.18"
-            android:text="&gt;" />
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text=">" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -83,20 +80,20 @@
 
         <Button
             android:id="@+id/button9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:text="Button" />
 
         <Button
             android:id="@+id/bbackwards"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:text="v" />
 
         <Button
             android:id="@+id/button7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:text="Button" />
     </LinearLayout>
 
