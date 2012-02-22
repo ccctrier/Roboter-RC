@@ -30,20 +30,20 @@
 
         <Button
             android:id="@+id/bforwadLeft"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:text="↖" />
 
         <Button
             android:id="@+id/bforward"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:text="↑" />
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:text="Button" />
     </LinearLayout>
 
@@ -54,20 +54,20 @@
 
         <Button
             android:id="@+id/bleft"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:text="←" />
 
         <Button
             android:id="@+id/bstop"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:text="S " />
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="STOP" />
 
         <Button
             android:id="@+id/bright"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:text="→" />
 
     </LinearLayout>
@@ -79,20 +79,20 @@
 
         <Button
             android:id="@+id/button9"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:text="Button" />
 
         <Button
             android:id="@+id/bbackwards"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:text="↓" />
 
         <Button
             android:id="@+id/button7"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:text="Button" />
     </LinearLayout>
 
